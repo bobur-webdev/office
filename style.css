@@ -1,0 +1,502 @@
+
+.container{
+    max-width: 1720px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 57px;
+}
+
+
+.nav-tem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-tem h2{
+    margin-left: 10px;
+}
+
+.nav-logo span {
+    color: #316499;;
+}
+
+.nav-logo ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.btn button {
+    background-color: #316499;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    border: none;
+    width: 160px;
+    height: 50px;
+}
+
+.background {
+    background-color: rgba(49, 100, 153, 0.1);
+    width: 100%;
+    height: 700px;
+    margin-bottom: 130px;
+}
+
+.office{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.office_item h1{ 
+    width: 338px;
+    font-size: 50px;
+}
+
+.office_item p {
+    width: 338px;
+    font-size: 21px;
+}
+
+.img img{
+    width: 900px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.office button {
+    background-color: #316499;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    border: none;
+    width: 160px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.art h1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #316499;
+    margin-bottom: 100px;;
+    
+
+}
+
+.img_2 {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 220px;
+
+}
+
+.img_card {
+    width: 170px;
+    height: 165px;
+    border: 3px solid #316499;
+    margin-left: 90px;
+    border-radius: 220px;
+    margin-top: 30px;
+}
+
+.img_card img {
+    margin-bottom: -104px;
+}
+
+
+.img_3{
+    width: 360px;
+    text-align: center;
+    height: 423px;
+}
+
+
+.img_3:nth-child(1){
+    box-shadow: 1px 1px 4px;
+}
+ 
+    
+.img_3:nth-child(2){
+    box-shadow: 1px 1px 4px;
+ }
+    
+.img_3:nth-child(3){
+    box-shadow: 1px 1px 4px;
+}
+
+  
+.img_3 h1 {
+    margin-bottom: 38px;
+  }
+  
+.img_3 p{
+     margin-bottom: 20px;
+  }
+ 
+
+ .hotel_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 70px;
+    margin-bottom: 78px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-left: 90px;
+
+
+ }
+
+ .menu_h1 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #316499;
+    margin-bottom: 100px;
+    
+ }
+
+
+ .hotel_img {
+    margin-left: 23px;
+    padding: 25px 25px 25px 3px;
+ } 
+
+ .hotel_2 {
+    max-width: 550px;
+    height: 580px;
+    box-shadow: 1px 1px 4px;
+    margin: 20px;
+
+ }
+
+
+  .list{
+    text-align: center;
+    color: #316499;
+    text-transform: uppercase;
+  }
+
+  .hilton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hilton_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 56px;
+  }
+
+  .hilton_menu img {
+    margin-left: 20px;
+  }
+
+  .hilton_menu h1 {
+    margin-left: 21px;
+  }
+
+  .hilton_menu_2 a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    text-decoration-line: underline;
+    color: #316499;
+    margin-left: 20px;
+  }
+
+  .hilton_menu_2 img {
+    margin-left: 270px;
+  }
+
+
+  .buttons button {
+    background-color: #fff;
+    color: #316499;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    border: none;
+    width: 300px;
+    height: 80px;
+    margin-top: 30px;
+    border: 2px solid #316499;
+    border-radius: 60px;
+  }
+
+.buttons {
+    text-align: center;
+    margin-bottom: 218px;
+}
+  
+
+.blog_1 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #316499;
+    margin-bottom: 100px;
+}
+
+.blog_img img {
+    width: 100%;
+    height: 450px;
+}
+
+.blog_menu h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+    margin-left: 40px;
+}
+
+.blog_menu span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #828282;
+    margin-left: 40px;
+}
+
+.blog_menu p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #828282;
+    width: 437px;
+    margin-left: 40px;
+}
+
+.blog_menu a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    text-decoration-line: underline;
+    color: #316499;
+    margin-left: 40px;
+}
+
+.blog_menu_item {
+    box-shadow: 1px 1px 4px;
+}
+
+.blog_menu {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: start;
+    grid-gap: 320px;
+    margin-bottom: 218px;
+
+}
+
+.client_img {
+    width: 150px;
+    height: 150px;
+    margin-left: 80px;
+}
+
+.client_1 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #316499;
+    margin-bottom: 88px;
+}
+
+.client_menu_item h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.client_menu_item span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #828282;
+    opacity: 0.7;
+    margin-left: 100px;
+}
+
+.client_menu_item:nth-child(2) span
+{
+    margin-left: 60px;
+}
+
+.span_img img{
+    width: 162.28px;
+    height: 30px;
+    left: 281.32px;
+    top: 5135px;
+    text-align: center;
+    margin-bottom: 41px;
+    margin-left: 60px;
+    
+}
+
+.client_menu_item p {
+    width: 380.77px;
+    height: 114px;
+    margin-left: -56px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    color: #828282;
+    opacity: 0.7;
+}
+
+.client_menu_item {
+    width: 422px;
+    height: 566px;
+    padding-left: 133px;
+    padding-top: 28px;
+    box-shadow: 0px 1px 1px 1px;
+}
+
+.client_menu_item:hover{
+    background: #EBEBEB;
+}
+
+.client_menu {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 110px;
+}
+
+
+footer {
+    width: 100%;
+    background: #316499;
+
+}
+.footer_menu{
+    width: 100%;
+    height: 600px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo_1 li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.footer-logo_1 ul {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-logo_1  {
+    margin-top: 131px;
+}
+
+.footer-logo li h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 273px;
+}
+
+
+.footer-logo li {
+    margin-bottom: 130px;
+}  
+
+
+.footer-logo_1:nth-child(4) li img {
+    margin-left: 12.5%;
+    margin-right: 8.33%;    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+
+.footer-logo_1:nth-child(4) li img:nth-child(2) {
+    width: 316px;
+    margin-left: 6px;
+}
+
+
+
+
+
